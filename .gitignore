@@ -1,0 +1,32 @@
+# Komentar dimulai dengan tanda pagar (#)
+
+# Abaikan semua file .log di mana saja dalam proyek
+*.log
+
+# Abaikan folder 'node_modules/' (umum untuk proyek JavaScript/Node.js)
+node_modules/
+
+# Abaikan folder 'build/' atau 'dist/' (umum untuk output kompilasi)
+build/
+dist/
+
+# Abaikan file .env (file konfigurasi lingkungan lokal dan sensitif)
+.env
+
+# Abaikan file cache macOS
+.DS_Store
+
+# Abaikan file thumbnail Windows
+Thumbs.db
+
+# Abaikan file editor spesifik (misalnya, untuk VS Code)
+.vscode/
+
+# Abaikan file spesifik di root directory saja
+/mysecretfile.txt
+
+# Abaikan semua file .tmp di mana saja
+*.tmp
+
+# Kecualikan (jangan abaikan) file tertentu dari folder yang diabaikan
+!node_modules/my_important_module/
